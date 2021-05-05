@@ -1,251 +1,298 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link rel="stylesheet" href="assets/css/styles.css">
 
-        <!-- =====BOX ICONS===== -->
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
-        <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="assets/css/styles.css">
 
-        <title>Wellington Bezerra</title>
+    <!-- =====BOX ICONS===== -->
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.5/css/boxicons.min.css' rel='stylesheet'>
+    <link href='https://cdn.jsdelivr.net/npm/boxicons@2.0.7/css/boxicons.min.css' rel='stylesheet'>
 
-         </head>
-    <body>
-        
-         <!--===== HEADER =====-->
-        <header class="l-header">
-            <nav class="nav bd-grid">
+    <title>Wellington Bezerra</title>
+
+</head>
+
+<body>
+
+    <!--===== HEADER =====-->
+    <header class="l-header">
+        <nav class="nav bd-grid">
+            <div>
+                <a href="#" class="nav__logo">Wellington Bezerra</a>
+            </div>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
+                    <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
+                    <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
+                    <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
+                    <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
+                </ul>
+
+            </div>
+            <div class="nav__toggle" id="nav-toggle">
+                <i class='bx bx-menu'></i>
+            </div>
+
+        </nav>
+    </header>
+
+    <main class="l-main">
+
+        <!--===== HOME =====-->
+        <section class="home bd-grid" id="home">
+            <div class="home__data">
+                <h1 class="home__title">Prazer,<br>sou <span class="home__title-color">Wellington</span><br>
+                    <h2>Desenvolvedor Back-End Jr.</h2><br>
+                </h1>
+
+                <a href="https://drive.google.com/file/d/1lIDm5-xsXmAQK01jA4HtPuT3JXUFI7Op/view?usp=sharing"
+                    target="_blanck" class="button">Currículo</a>
+            </div>
+
+            <div class="home__social">
+                <a href="https://www.linkedin.com/in/wellington-bezerra-005139165/" target="_blanck"
+                    class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
+
+                <a href="https://github.com/WellingtonSB" target="_blanck" class="home__social-icon"><i
+                        class='bx bxl-github'></i></a>
+
+                <a href="https://api.whatsapp.com/send/?phone=5511974136432&text&app_absent=0" target="_blanck"
+                    class="home__social-icon"><i class='bx bxl-whatsapp'></i></a>
+
+                <a href="mailto:wellingtonsouza2504@gmail.com" target="_blanck" class="home__social-icon"><i
+                        class='bx bx-mail-send'></i></i></a>
+            </div>
+
+            <div class="home__img">
+                <img src="assets/img/perfil.png" alt="">
+            </div>
+        </section>
+
+        <!--===== ABOUT =====-->
+        <section class="about section " id="about">
+            <h2 class="section-title">Sobre</h2>
+
+            <div class="about__container bd-grid">
+                <div class="about__img">
+                    <img src="assets/img/ao.gif" alt="">
+                </div>
+
                 <div>
-                    <a href="#" class="nav__logo">Wellington Bezerra</a>
+                    <h3 class="about__subtitle"><em>“If you wish to make an apple pie from scratch, you must first
+                            invent the universe.” ― Carl Sagan</em></h3>
+                    <p class="about__text">
+                        Aos meus 15 anos, tive minha primeira experiência profissional trabalhando na Fundação Dom
+                        Cabral como aprendiz.<br>
+                        <br>
+                        Tive a oportunidade de conhecer grandes professores voltados a area de gestão empresarial.
+                        Devido a paixão por tecnologia latente em mim, em 2018 adentrei em uma das "Super StartUps"
+                        presentes aqui no Brasil.
+                        Lá pude desenvolver e aprimorar 2 softs skills de suma importância, liderança e comunicação.
+                        Tive a oportunidade de treinar e liderar ao todo cerca de 400 pessoas.Hoje aos meus 20 anos.<br>
+                        <br>
+                        Hoje, estou em transição de carreira saindo da area comercial e indo para tecnologia.Atualmente
+                        estou no bootcamp da Generation Brasil com a finalidade de me tornar um Dev Full Stack Java Jr.
+                    </p> <br>
                 </div>
+            </div>
+        </section>
 
-                <div class="nav__menu" id="nav-menu">
-                    <ul class="nav__list">
-                        <li class="nav__item"><a href="#home" class="nav__link active">Home</a></li>
-                        <li class="nav__item"><a href="#about" class="nav__link">Sobre</a></li>
-                        <li class="nav__item"><a href="#skills" class="nav__link">Skills</a></li>
-                        <li class="nav__item"><a href="#work" class="nav__link">Projetos</a></li>
-                        <li class="nav__item"><a href="#contact" class="nav__link">Contato</a></li>
-                        </ul>
+        <!--===== SKILLS =====-->
+        <section class="skills section" id="skills">
+            <h2 class="section-title">Skills</h2>
 
-                </div>
-                <div class="nav__toggle" id="nav-toggle">
-                    <i class='bx bx-menu'></i>
-                </div>
-                
-            </nav>
-        </header>
+            <div class="skills__container bd-grid">
+                <div>
+                    <p class="skills__text">Desenvolvedor back-end Jr. Atualmente estou no bootcamp da Generation, afim
+                        de melhorar minhas habilidades. Futuramente pretendo me expecializar em AWS e Phyton.</p>
 
-        <main class="l-main">
-            
-            <!--===== HOME =====-->
-            <section class="home bd-grid" id="home">
-                <div class="home__data">
-                    <h1 class="home__title">Prazer,<br>sou <span class="home__title-color">Wellington</span><br> <h2>Desenvolvedor Back-End Jr.</h2><br></h1>
-
-                    <a href="https://drive.google.com/file/d/1lIDm5-xsXmAQK01jA4HtPuT3JXUFI7Op/view?usp=sharing" target="_blanck" class="button">Currículo</a>
-                </div>
-
-                <div class="home__social">
-                    <a href="https://www.linkedin.com/in/wellington-bezerra-005139165/" target="_blanck" class="home__social-icon"><i class='bx bxl-linkedin'></i></a>
-
-                    <a href="https://github.com/WellingtonSB" target="_blanck" class="home__social-icon"><i class='bx bxl-github' ></i></a>
-
-                    <a href="https://api.whatsapp.com/send/?phone=5511974136432&text&app_absent=0" target="_blanck" class="home__social-icon"><i class='bx bxl-whatsapp' ></i></a>
-
-                    <a href="mailto:wellingtonsouza2504@gmail.com" target="_blanck" class="home__social-icon"><i class='bx bx-mail-send'></i></i></a>
-                </div>
-
-                <div class="home__img">    
-                    <img src="assets/img/perfil.png" alt="">
-                </div>
-            </section>
-
-            <!--===== ABOUT =====-->
-            <section class="about section " id="about">
-                <h2 class="section-title">Sobre</h2>
-
-                <div class="about__container bd-grid">
-                    <div class="about__img">
-                        <img src="assets/img/ao.gif" alt="">
-                    </div>
-                    
-                    <div>
-                        <h3 class="about__subtitle"><em>“If you wish to make an apple pie from scratch, you must first invent the universe.” ― Carl Sagan</em></h3>
-                        <p class="about__text">
-                            Aos meus 15 anos, tive  minha primeira experiência profissional trabalhando na Fundação Dom Cabral como aprendiz.<br>
-                            <br>   
-                            Tive a oportunidade de conhecer grandes professores voltados a area de gestão empresarial.
-                            Devido a paixão por tecnologia  latente em mim,  em 2018 adentrei em uma das "Super StartUps" presentes aqui no Brasil. 
-                            Lá pude desenvolver e aprimorar 2 softs skills de suma importância, liderança e comunicação. Tive a oportunidade de treinar e liderar  ao todo cerca de 400 pessoas.Hoje aos meus 20 anos.<br>  
-                            <br> 
-                            Hoje, estou em transição de carreira saindo da area comercial e indo para tecnologia.Atualmente estou no bootcamp da Generation Brasil com a finalidade de me tornar um Dev Full Stack Java Jr. 
-                             </p> <br>            
-                   </div>                                   
-                </div>
-            </section>
-
-            <!--===== SKILLS =====-->
-            <section class="skills section" id="skills">
-                <h2 class="section-title">Skills</h2>
-
-                <div class="skills__container bd-grid">          
-                    <div>
-                        <p class="skills__text">Desenvolvedor back-end Jr. Atualmente estou no bootcamp da Generation, afim de melhorar minhas habilidades. Futuramente pretendo me expecializar em AWS e Phyton.</p>
-                              
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-javascript skills__icon' ></i>
-                                <span class="skills__name">Javascript</span>
-                            </div>
-                            <div class="skills__bar skills__js">    
-                            </div>
-                            <div>
-                                <span class="skills__percentage"></span>
-                            </div>
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-javascript skills__icon'></i>
+                            <span class="skills__name">Javascript</span>
                         </div>
-                     
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-spring-boot skills__icon' ></i>
-                                <span class="skills__name">Spring boot</span>
-                            </div>
-                            <div class="skills__bar skills__spring">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage"></span>
-                            </div>
+                        <div class="skills__bar skills__js">
                         </div>
-                        
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-css3 skills__icon' ></i>
-                                <span class="skills__name">CSS</span>
-                            </div>
-                            <div class="skills__bar skills__css">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage"></span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxs-cylinder skills__icon' ></i>
-                                <span class="skills__name">SQL - Banco de Dados</span>
-                            </div>
-                            <div class="skills__bar skills__sql">
-
-                            </div>
-                            <div>
-                                <span class="skills__percentage"></span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bx-code-curly skills__icon'></i>
-                                <span class="skills__name">Java</span>
-                            </div>
-                            <div class="skills__bar skills__java">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage"></span>
-                            </div>
-                        </div>
-
-                        <div class="skills__data">
-                            <div class="skills__names">
-                                <i class='bx bxl-amazon skills__icon'></i>
-                                <span class="skills__name">AWS - Cloud Computing Services</span>
-                            </div>
-                            <div class="skills__bar skills__aws">
-                                
-                            </div>
-                            <div>
-                                <span class="skills__percentage"></span>
-                            </div>
+                        <div>
+                            <span class="skills__percentage"></span>
                         </div>
                     </div>
-                    
-                    <div>              
-                        <img src="assets/img/skills.png" alt="" class="skills__img">
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-spring-boot skills__icon'></i>
+                            <span class="skills__name">Spring boot</span>
+                        </div>
+                        <div class="skills__bar skills__spring">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-css3 skills__icon'></i>
+                            <span class="skills__name">CSS</span>
+                        </div>
+                        <div class="skills__bar skills__css">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxs-cylinder skills__icon'></i>
+                            <span class="skills__name">SQL - Banco de Dados</span>
+                        </div>
+                        <div class="skills__bar skills__sql">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bx-code-curly skills__icon'></i>
+                            <span class="skills__name">Java</span>
+                        </div>
+                        <div class="skills__bar skills__java">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
+                    </div>
+
+                    <div class="skills__data">
+                        <div class="skills__names">
+                            <i class='bx bxl-amazon skills__icon'></i>
+                            <span class="skills__name">AWS - Cloud Computing Services</span>
+                        </div>
+                        <div class="skills__bar skills__aws">
+
+                        </div>
+                        <div>
+                            <span class="skills__percentage"></span>
+                        </div>
                     </div>
                 </div>
-            </section>
 
-           <!--===== PROJETOS =====-->
-           <section class="work section" id="work">
+                <div>
+                    <img src="assets/img/skills.png" alt="" class="skills__img">
+                </div>
+            </div>
+        </section>
+
+        <!--===== PROJETOS =====-->
+        <section class="work section" id="work">
             <h2 class="section-title">Projetos</h2>
 
             <div class="work__container bd-grid" style="padding-top:100px" id="work">
 
                 <div class="work__img">
-                    <a href="https://github.com/WellingtonSB/eRural" target="_blanck"><img src="assets/img/erural.png" target="_blanck" class="media-object img-responsive img-thumbnail"></a>
-                    <h4><a href="https://github.com/WellingtonSB/eRural" target="_blanck" class="home__social-iconc">eRural</a></h4>
-                    <a href="https://github.com/WellingtonSB/eRural" style="font-size: 2.0rem; margin-right: 0;" target="_blanck" class="home__social-iconb" ><i class='bx bxl-github' ></i></a>
+                    <a href="https://github.com/WellingtonSB/eRural" target="_blanck"><img src="assets/img/erural.png"
+                            target="_blanck" class="media-object img-responsive img-thumbnail"></a>
+                    <h4><a href="https://github.com/WellingtonSB/eRural" target="_blanck"
+                            class="home__social-iconc">eRural(Em construção)</a></h4>
+                    <a href="https://github.com/WellingtonSB/eRural" style="font-size: 2.0rem; margin-right: 0;"
+                        target="_blanck" class="home__social-iconb"><i class='bx bxl-github'></i></a>
                 </div>
                 <div class="work__img">
-                    <a href="https://github.com/WellingtonSB/SUPER_DESAFIO_IMPORTANTE_DOS_PROGRAMADORES" target="_blanck"><img src="assets/img/program.gif" target="_blanck" class="media-object  img-responsive img-thumbnail"></a>
-                    <h4><a href="https://github.com/WellingtonSB/SUPER_DESAFIO_IMPORTANTE_DOS_PROGRAMADORES" target="_blanck" class="home__social-iconc">Super Desafio Importante dos Programadores</a></h4>
-                    <h4><a href="https://github.com/WellingtonSB/SUPER_DESAFIO_IMPORTANTE_DOS_PROGRAMADORES" style="font-size: 2.0rem; margin-right: 0;" target="_blanck" class="home__social-iconb" ><i class='bx bxl-github' ></i></a></h4>
+                    <a href="https://github.com/WellingtonSB/SUPER_DESAFIO_IMPORTANTE_DOS_PROGRAMADORES"
+                        target="_blanck"><img src="assets/img/program.gif" target="_blanck"
+                            class="media-object  img-responsive img-thumbnail"></a>
+                    <h4><a href="https://github.com/WellingtonSB/SUPER_DESAFIO_IMPORTANTE_DOS_PROGRAMADORES"
+                            target="_blanck" class="home__social-iconc">Bar do Zé</a></h4>
+                    <h4><a href="https://github.com/WellingtonSB/SUPER_DESAFIO_IMPORTANTE_DOS_PROGRAMADORES"
+                            style="font-size: 2.0rem; margin-right: 0;" target="_blanck" class="home__social-iconb"><i
+                                class='bx bxl-github'></i></a></h4>
                 </div>
 
                 <div class="work__img">
-                    <a href="https://github.com/WellingtonSB/SpaceWar" target="_blanck"><img src="assets/img/spacewar.jpg" target="_blanck" class="media-object img-responsive img-thumbnail"></a>
-                    <h4><a href="https://github.com/WellingtonSB/SpaceWar" target="_blanck" class="home__social-iconc">SpaceWar</a></h4>
-                    <a href="https://github.com/WellingtonSB/SpaceWar" style="font-size: 2.0rem; margin-right: 0;" target="_blanck" class="home__social-iconb" ><i class='bx bxl-github' ></i></a>
+                    <a href="https://github.com/WellingtonSB/SpaceWar" target="_blanck"><img
+                            src="assets/img/spacewar.jpg" target="_blanck"
+                            class="media-object img-responsive img-thumbnail"></a>
+                    <h4><a href="https://github.com/WellingtonSB/SpaceWar" target="_blanck"
+                            class="home__social-iconc">SpaceWar</a></h4>
+                    <a href="https://github.com/WellingtonSB/SpaceWar" style="font-size: 2.0rem; margin-right: 0;"
+                        target="_blanck" class="home__social-iconb"><i class='bx bxl-github'></i></a>
                 </div>
 
 
             </div>
         </section>
 
-          <!--===== CONTATO =====-->
-            <section class="contact section" id="contact">
-                <h2 class="section-title">Contato</h2>
+        <!--===== CONTATO =====-->
+        <section class="contact section" id="contact">
+            <h2 class="section-title">Contato</h2>
 
-                <div class="contact__container bd-grid">
-                    <form action="" class="contact__form">
-                        <input type="text" placeholder="Nome" class="contact__input">
-                        <input type="mail" placeholder="E-mail" class="contact__input">
-                        <textarea name="" placeholder="Escreva sua mensagem aqui!" id="" cols="0" rows="10" class="contact__input"></textarea>
-                        <script>
-                            function funcao1()
-                            {
+            <div class="contact__container bd-grid">
+                <form action="" class="contact__form">
+                    <input type="text" placeholder="Nome" class="contact__input">
+                    <input type="mail" placeholder="E-mail" class="contact__input">
+                    <textarea name="" placeholder="Escreva sua mensagem aqui!" id="" cols="0" rows="10"
+                        class="contact__input"></textarea>
+                    <script>
+                        function funcao1() {
                             alert("Obrigado pela sua mensagem\nEm caso de urgência, me chame pelo WhatsApp ou e-mail!");
-                            }
-                            </script>
-                        <input type="button" onclick="funcao1()" value="Enviar" class="contact__button button">
-                    </form>
-                </div>
-            </section>
-        </main>
-
-        <!--===== FOOTER =====-->
-        <footer class="footer">
-            <p class="footer__title"><h3>Me siga nas redes sociais!</h3></p>
-            <div class="footer__social">
-                <a href="https://www.instagram.com/well_ffb/" target="_blanck" class="footer__icon"><i class='bx bxl-instagram'></i></a>
-                <a href="https://github.com/WellingtonSB" target="_blanck" class="footer__icon"><i class='bx bxl-github'></i></a>
-                <a href="https://www.linkedin.com/in/wellington-bezerra-005139165/" target="_blanck" class="footer__icon"><i class='bx bxl-linkedin'></i></a> 
+                        }
+                    </script>
+                    <input type="button" onclick="funcao1()" value="Enviar" class="contact__button button">
+                </form>
             </div>
-            <p>&#169; 2021</p>
-        </footer>
+        </section>
+    </main>
+
+    <!--===== FOOTER =====-->
+    <footer class="footer">
+        <p class="footer__title">
+        <h3>Me siga nas redes sociais!</h3>
+        </p>
+        <div class="footer__social">
+            <a href="https://www.instagram.com/well_ffb/" target="_blanck" class="footer__icon"><i
+                    class='bx bxl-instagram'></i></a>
+            <a href="https://github.com/WellingtonSB" target="_blanck" class="footer__icon"><i
+                    class='bx bxl-github'></i></a>
+            <a href="https://www.linkedin.com/in/wellington-bezerra-005139165/" target="_blanck" class="footer__icon"><i
+                    class='bx bxl-linkedin'></i></a>
+        </div>
+        <p>&#169; 2021</p>
+    </footer>
 
 
-        <!--===== SCROLL =====-->
-        <script src="https://unpkg.com/scrollreveal"></script>
+    <!--===== SCROLL =====-->
+    <script src="https://unpkg.com/scrollreveal"></script>
 
-        <!--===== MAIN JS =====-->
-        <script src="assets/js/main.js"></script>
+    <!--===== MAIN JS =====-->
+    <script src="assets/js/main.js"></script>
+    <!--Start of Tawk.to Script-->
+    <script type="text/javascript">
+        var Tawk_API = Tawk_API || {}, Tawk_LoadStart = new Date();
+        (function () {
+            var s1 = document.createElement("script"), s0 = document.getElementsByTagName("script")[0];
+            s1.async = true;
+            s1.src = 'https://embed.tawk.to/6092cca1b1d5182476b5fa23/1f4umuls1';
+            s1.charset = 'UTF-8';
+            s1.setAttribute('crossorigin', '*');
+            s0.parentNode.insertBefore(s1, s0);
+        })();
+    </script>
+    <!--End of Tawk.to Script-->
 
-        
-    </body>
-    <script>(function(d){var s = d.createElement("script");s.setAttribute("data-account", "rmO1crvoXZ");s.setAttribute("src", "https://cdn.userway.org/widget.js");(d.body || d.head).appendChild(s);})(document)</script><noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website accessibility</a></noscript>
+</body>
+<script>(function (d) { var s = d.createElement("script"); s.setAttribute("data-account", "rmO1crvoXZ"); s.setAttribute("src", "https://cdn.userway.org/widget.js"); (d.body || d.head).appendChild(s); })(document)</script>
+<noscript>Please ensure Javascript is enabled for purposes of <a href="https://userway.org">website
+        accessibility</a></noscript>
+
 </html>
